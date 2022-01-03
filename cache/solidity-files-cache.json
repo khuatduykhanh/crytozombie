@@ -1,0 +1,302 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/mrkhoa/Desktop/1234/contracts/zombiefactory.sol": {
+      "lastModificationDate": 1641189696295,
+      "contentHash": "881e0f5a375e4f2f4b3e04e050ad23ea",
+      "sourceName": "contracts/zombiefactory.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ownable.sol",
+        "./safemath.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.3"
+      ],
+      "artifacts": [
+        "ZombieFactory"
+      ]
+    },
+    "/Users/mrkhoa/Desktop/1234/contracts/ownable.sol": {
+      "lastModificationDate": 1641189085677,
+      "contentHash": "702831f3f58da592a8956340500c69e0",
+      "sourceName": "contracts/ownable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.3"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/mrkhoa/Desktop/1234/contracts/zombiefeeding.sol": {
+      "lastModificationDate": 1641189311789,
+      "contentHash": "c850211b02e0df190874044f3c4b4d5e",
+      "sourceName": "contracts/zombiefeeding.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./zombiefactory.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.3"
+      ],
+      "artifacts": [
+        "KittyInterface",
+        "ZombieFeeding"
+      ]
+    },
+    "/Users/mrkhoa/Desktop/1234/contracts/zombieattack.sol": {
+      "lastModificationDate": 1641190495475,
+      "contentHash": "4cf9b790679f44fe40316742f28b5f63",
+      "sourceName": "contracts/zombieattack.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./zombiehepler.sol",
+        "./safemath.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.3"
+      ],
+      "artifacts": [
+        "ZombieAttack"
+      ]
+    },
+    "/Users/mrkhoa/Desktop/1234/contracts/safemath.sol": {
+      "lastModificationDate": 1641189286111,
+      "contentHash": "f408542331946782361dfa9cd089765b",
+      "sourceName": "contracts/safemath.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.3"
+      ],
+      "artifacts": [
+        "SafeMath",
+        "SafeMath16",
+        "SafeMath32"
+      ]
+    },
+    "/Users/mrkhoa/Desktop/1234/contracts/erc721.sol": {
+      "lastModificationDate": 1641189561904,
+      "contentHash": "b42c7373a7d35509bf371e6b27909b00",
+      "sourceName": "contracts/erc721.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.3"
+      ],
+      "artifacts": [
+        "erc721"
+      ]
+    },
+    "/Users/mrkhoa/Desktop/1234/contracts/zombieownership.sol": {
+      "lastModificationDate": 1641190134691,
+      "contentHash": "5c9f05d25ddcfb604de0a36b07a87a68",
+      "sourceName": "contracts/zombieownership.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./zombieattack.sol",
+        "./erc721.sol",
+        "./safemath.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.3"
+      ],
+      "artifacts": [
+        "ZombieOwnership"
+      ]
+    },
+    "/Users/mrkhoa/Desktop/1234/contracts/zombiehepler.sol": {
+      "lastModificationDate": 1641190468708,
+      "contentHash": "813bc94e5ead4716df40530b6d550ebd",
+      "sourceName": "contracts/zombiehepler.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./zombiefeeding.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.3"
+      ],
+      "artifacts": [
+        "ZombieHelper"
+      ]
+    }
+  }
+}
